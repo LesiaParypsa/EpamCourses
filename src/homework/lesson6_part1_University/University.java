@@ -13,10 +13,12 @@ public class University {
         students.add(new Student("Parypsa", "Lesia", "Serhiivna",
                 LocalDate.of(1988, 12, 31), "Kyiv", "9379992", "1", FacultiesList.FICT,
                 CoursesList.FIRST, GroupsList.FBT_3_08));
-        students.add(new Student("Gorol", "Vitalik", "Lovovich",
+        students.add(new Student("Gibaev", "Oleg", "Lovovich",
                 LocalDate.of(1956, 11, 24), "Lviv", "9379993", "2", FacultiesList.FMM,
                 CoursesList.FOURTH, GroupsList.FICT_2_06));
     }
+
+
 
     public ArrayList<Student> getStudentsByFaculty(FacultiesList faculty) {
         ArrayList<Student> result = new ArrayList<>();

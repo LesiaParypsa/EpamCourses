@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        University myUniver = new University("KPI");
+        University myUniver = new University("VNTU");
 
         ArrayList<Student> studentByGroup = myUniver.getStudentsByGroup(GroupsList.FICT_2_06);
         System.out.println("Students by group:\n");
