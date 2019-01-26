@@ -18,8 +18,6 @@ public class University {
                 CoursesList.FOURTH, GroupsList.FICT_2_06));
     }
 
-
-
     public ArrayList<Student> getStudentsByFaculty(FacultiesList faculty) {
         ArrayList<Student> result = new ArrayList<>();
         for (int i = 0; i < students.size(); i++) {
