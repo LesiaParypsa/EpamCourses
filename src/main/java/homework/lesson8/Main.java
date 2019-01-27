@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Converted date: " + convertedDate1);
         System.out.println("Converted date: " + convertedDate2);
 
-
+//////////////////////////////////////////////////////////////////////////////////////////////
         long tsAtTheStartOfTheDay = new DateTime().withTimeAtStartOfDay().getMillis();
         System.out.println("\nStart of the day: " + tsAtTheStartOfTheDay);
 
@@ -31,7 +31,7 @@ public class Main {
         String dateAtTheEndOfTheDay = convertTsToFormat(tsAtTheEndOfTheDay, "dd/MM/yyyy HH:mm");
         System.out.println("Converted date from ts: " + dateAtTheEndOfTheDay + "\n");
 
-
+/////////////////////////////////////////////////////////////////////////////////////////////////
         DateTime date1 = new DateTime(2019, 3, 24, 15, 40);
         System.out.println("Date 1: " + date1);
         DateTime date2 = new DateTime(2019, 3, 24, 15, 40);
@@ -49,6 +49,7 @@ public class Main {
                 break;
         }
 
+///////////////////////////////////////////////////////////////////////////////////
         String dayOfWeek = getDayOfWeekFromTs(1548453600000L);
         System.out.println("\n" + dayOfWeek);
     }
